@@ -1,0 +1,42 @@
+body {
+
+    
+    background-color: antiquewhite;
+}
+input {
+    padding: 15px;
+    font-size: 21px;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+
+}
+h1 {
+
+    text-align: center;
+}
+#app {
+    
+    width: 331px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    position: initial;
+    border-radius: 23px;
+    padding: 40px;
+    color: snow;
+}
+
+    p {
+    font-size: 29px;
+    text-align: center;
+}
+    input {
+    padding: 15px;
+    font-size: 21px;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+}
+    #app :nth-child(5){
+        font-size: 17px;
+    }

@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;  
+}
+#body-wrap {
+    width: 100%;
+    height: auto;
+}
+#nav-wrap {
+    width: 100%;
+    height: 55px;
+    background-color: #201d1d;
+    display: inline-flex;
+}
+#search  {
+    width: 50%;
+    height: auto;
+
+}
+#search img {
+    overflow: hidden;
+    margin-left: 155px;
+    width: 135px;
+    filter: brightness(600%);
+    margin-top: -25px;
+}
+#search-field {
+    margin-right: 40px;
+    margin-top:13px;
+    border-radius: 20px;
+    float: right;
+    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 0;
+    width: 40%;
+    height: 32px;
+    background-position-x: 10px;
+    background-position-y: 3px;
+    -webkit-text-fill-color: aliceblue;
+    text-align: center;
+}
+ #nav {
+    width: 50%;
+    height: auto;
+    float: right;
+ }
+
+ ul {
+    float: right;
+    display: flex;
+    margin-right: 110px;
+    margin-top: 15px;
+   list-style-type: none;
+   font-size: 13px;
+ }
+    li {
+        margin-left: 30px;
+        margin-right: 7px;
+        color: antiquewhite;
+        font-size: 140%;
+
+    }
+
+    a {
+        color: white;
+        text-decoration-style: none;
+        text-decoration: none;
+    }
+      li a:hover{
+       border-bottom: 2px solid  #5ACE1B;
+    
+    }
+    
+#first-section {
+    width: 100%;
+    height:100%;
+    background-image: url("main-back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#welcome-wrap {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    color: white;
+    font-size: 150%;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 130px;
+    margin-left: 130px;
+    padding: 55px;
+    
+}
+#welcome-wrap>h3 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    display: flex;
+}
+#welcome-wrap>h1 {
+    font-size: 85px;
+    display: flex;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('main-back2.jpg');
+  color: aliceblue;
+    /* Full height */
+    height: 30%; 
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax>h1 {
+    font-size: 65px;
+    padding-top: 145px;
+
+}
+.parallax>h4 {
+    color: white;
+    background: rgb(217,14,14);
+background: linear-gradient(295deg, rgba(217,14,14,1) 0%, rgba(150,55,17,1) 49%, rgba(213,125,0,1) 100%);
+    width: 180px;
+    height: 54px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 65px;
+    position: absolute;
+    margin-top: 35px;
+    padding-right: -58px;
+    display: inline-grid;
+    font-size: 138%;
+    border: 2px solid gold;
+    padding-top: 11px;
+  
+}
+#second-section {
+    height: 450px;
+}
+#second-section h2{
+    color: red;
+    font-size: 189%;
+    margin-bottom: 84px;
+    padding-top: 33px;
+}
+#diet-wraper, #whoarewe-wrap{
+    height: 70%;
+   
+}
+#diet-wraper{
+    width: 75%;
+    display: inline-block;
+}
+#whoarewe-wrap>h2{
+    
+    color: rgb(189, 24, 24);
+    font-size: 210%;
+    padding-top: 50px;
+}
+.box-33 {
+    width:33.33%;
+    height: 200px;
+    float: left;
+    
+}
+.box-33>img {
+    max-width: 135px;
+   max-height: 127px;
+}
+.border-red {
+    border-right: 2px solid rgb(226, 5, 5);
+    border-left: 2px solid rgb(226, 5, 5);
+    
+}
+.box-33.border-red p {
+    margin-top: 36px;
+}
+.box-33 p {
+    margin-top: 10px;
+    color: rgb(221, 10, 10);
+    font-size: 18px;
+}
+#third-section{
+width: 100%;
+height: 75%;
+
+}
+#third-first, #third-second {
+    width: 50%;
+    height: auto;
+}
+#third-first {
+    float: left;
+    width: 30%;
+    display: block;
+    margin-left: 130px;
+    margin-top: 55px;
+}
+#third-first>h3  {
+    font-size: 140%;
+    text-align: -webkit-auto;
+}
+#third-first>p  {
+    font-size: 140%;
+    text-align: -webkit-auto;
+}
+#third-second {
+    float: right;
+}
+#fourth-section {
+    width: 100%;
+    height: 100%;
+}
+#sponsors {
+    height: 45%;
+    background-color: #201d1d;
+}
+#sponsors>h1 {
+    color: aliceblue;
+    font-size: 200%;
+    text-align: initial;
+    padding-top: 28px;
+    text-align: center;
+}
+#sponsor-wrap {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 35px;
+}
+.sponsor {
+    width: 242px;
+    height: auto;
+    
+}
+#our-team {
+    height: 55%;
+    background-color: aliceblue;
+    color: red;
+}
+#our-team>h1 {
+    color: rgb(209, 24, 24);
+    font-size: 200%;
+    text-align: initial;
+    padding-top: 28px;
+    text-align: center;
+    
+}
+#team-wrap {
+       /* width: 90%; */
+       height: 81%;
+       display: flex;
+       margin-left: 231px;
+    
+}
+.team-member {
+    width: 15%;
+    height: auto;
+    margin: 33px;
+}
+.team-member>h4 {
+    display: contents;
+    color: #FF1A1A;
+    font-size:130%;
+    margin-top: 10px;
+}
+.team-pic {
+    width: 100%;
+    height: 70%;
+    border: 5px solid palevioletred;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.person-1{
+    background-image: url("01.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.person-2{
+    background-image: url("02.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.person-3{
+    background-image: url("03.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.person-4{
+    background-image: url("04.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+/*POSLEDNA SEKCIJA*/
+#contact-section {
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('contact-back.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+#first-info {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    color: white;
+    font-size: 180%;
+    padding-top: 100px;
+}
+
+#first-info>h5 {
+    margin-bottom: 45px
+}
+#second-contact {
+width: 50%;
+height: 100%;
+float: right;
+}
+
+#contact-btn {
+    width: 240px;
+    height: 51px;
+    border-radius: 21px;
+    background-color: #ee1c1c;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 78px;
+    margin-left: 118px;
+    color: white;
+    position: absolute;
+    
+}
+#contact-btn>h5 {
+    font-size: larger;
+    height: 51px;
+    padding-top: 14px;
+}
+#form {
+    text-align-last: center;
+    /* position: relative; */
+    padding-top: 75px;
+    width: 390px;
+    height: 520px;
+    border-radius: 20px;
+    background-color: white;
+    position: initial;
+    margin-top: 104px;
+    margin-left: 35px;
+}
+#form>p {
+    display: flex;
+    margin-left: 46px;
+    margin-bottom: 4px;
+}
+input {
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 22px;
+    text-align: left;
+    outline: none;
+    border: 1px solid rgba(217,14,14,1);
+}
+
+[type~=checkbox] {
+        width: auto;
+    }
+#comment {
+    height: 115px;
+}
+#login {
+background: linear-gradient(295deg, rgba(217,14,14,1) 0%, rgba(150,55,17,1) 49%, rgba(213,125,0,1) 100%);
+    color:white;
+    width: 143px;
+    padding: 10px;
+    height: 47px;
+    border-radius: 30px;
+}
+h4 {
+    margin-left: 100px;
+    font-weight: 600;
+}
+footer {
+    height: 60px;
+    color: aliceblue;
+    background: rgb(22,2,2);
+     background: linear-gradient(40deg, rgba(22,2,2,1) 0%, rgba(59,50,46,1) 49%, rgb(27, 29, 26) 100%);
+    text-align: center;
+}
+footer>h3 {
+    padding-top: 20px;
+}
+/* Css za tabelata vo 3ta sekcija */
+table.blueTable {
+    border: 0px solid #1C6EA4;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 79px;
+    margin-left: 25px;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 0px solid #AAAAAA;
+    padding: 9px 9px;
+  }
+  table.blueTable tbody td {
+    font-size: 20px;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.blueTable thead {
+      border-bottom: 1px solid #444444;
+  }
+  table.blueTable thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF1A1A;
+    text-align: center;
+  }
+  table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+    text-align: right;
+  }
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+/* END OF--Css za tabelata vo 3ta sekcija */
+
+
+/* CSS ZA IKONATA FACEBOOK */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right:0%;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+  }
+  /*KOPCE SEND */
+
+  .btn {
+    border-radius: 26px;
+    border: 3px solid rgb(228, 15, 15);
+    color: rgb(208, 0, 17);
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px 59px 20px 14px;
+    position: relative;
+    text-decoration: none;
+    line-height: 1;
+    top: -13px;
+    font-size: 15px;
+    margin-left: 75px;
+  }
+  .btn .btn-content {
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 0 26px;
+    position: relative;
+    right: 0;
+    transition: right 300ms ease;
+    display: block;
+    text-align: left;
+  }
+  .btn .icon {
+    border-left: 1px solid rgb(156, 13, 13);
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transition: all 300ms ease;
+    transform: translateY(-50%);
+    width: 58px;
+    height: 70%;
+  }
+  .btn .icon i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(243, 7, 7);
+    opacity: 0;
+    transition: opacity 300ms ease;
+  }
+  .btn:hover .btn-content {
+    right: 100%;
+  }
+  .btn:hover .icon {
+    border-left: 0;
+    font-size: 1.8em;
+    width: 100%;
+  }
+  .btn:hover:after {
+    opacity: .2;
+  }
+  .btn.btn-alt-color {
+    border-color: rgb(124, 16, 4);
+    color: rgb(207, 9, 9);
+  }
+  .btn.btn-alt-color .icon {
+    border-left-color: rgb(228, 31, 9);
+  }
+  .btn.btn-alt-color:after {
+    background-color: rgb(223, 31, 10);
+  }
+  /*KRAJ KOPCE SEND */
+
+
+
+  /*MEDIA query za responsive na mobilen*/
+  @media only screen and (max-width: 965px) {
+      html {
+          display: table-caption;
+
+      }
+      #first-section {
+          background-position-x: -185px;
+      }
+      #welcome-wrap>h1 {
+        font-size: 235%;
+        display: inline;
+      }
+      #welcome-wrap {
+        width: 78%;
+        margin-top: 123px;
+        margin-left: 33px;
+        padding: 59px;
+      }
+      #search img {
+        /* overflow: hidden; */
+         margin-left: -43px;
+        width: 135px;
+        filter: brightness(600%);
+        margin-top: 35px;
+      }
+      ul {
+        font-size: 60%;
+        margin-right: 245px;
+        display: -webkit-box;
+        margin-right: 0px; 
+      }
+
+     li:nth-child(2) {
+          width: 90px;
+     }
+      li {
+        margin-left: 15px;
+      }
+      #search-field {
+        position: absolute;
+        margin: 98px;
+        margin-left: 93px;
+      }
+      #second-section {
+        height: 842px;
+        display: grid;
+      }
+      .box-33 {
+        width: 132.33%;
+        height: 243px;
+     
+      }
+      img[alt="apple"]{
+          margin-top: 30px;
+      }
+    
+    .parallax>h4 {
+        position: relative;
+         margin-left: -28px;
+        margin-top: 0px;
+    }
+    .parallax>h1 {
+        margin-top: 85px;
+        padding-top: 2em;
+        font-size: -webkit-xxx-large;
+    }
+    #third-section {
+         width: 100%; 
+        height: inherit;
+        display: flow-root;
+    }
+    #third-first {
+        float: left;
+        width: 90%;
+        display: block;
+        margin-left: 29px;
+        margin-top: 28px;
+    }
+    #third-second {
+        margin-right: 10em;
+        margin-bottom: 33px;
+    }
+    #sponsors {
+    height: 100%;
+    background-color: #201d1d;
+}
+#team-wrap {
+    width: 90%;
+    height: 81%;
+    display: flex;
+    margin-left: 40px;
+    display: grid;
+}
+.team-member {
+    width: 98%;
+    height: auto;
+    margin: 11px;
+    padding-left: 60px;
+}
+#our-team {
+    height: 800px;
+    background-color: aliceblue;
+    color: red;
+    width: 100%;
+   
+}
+.team-pic {
+    width: 70%;
+    height: 39%;
+    border: 5px solid palevioletred;
+    border-radius: 20px;
+}
+#form {
+    margin-left: -192px;
+    margin-top: -11px;
+}
+#contact-section {
+    margin-top: 1361px;
+}
+#contact-btn {
+    margin-top: 112px;
+    margin-left: -110px;
+    color: white;
+    position: relative;
+}
+#first-info {
+
+        width: 98%;
+}
+footer>h3 {
+    padding-top: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+.border-red {
+    border: none;
+    border-top: 1px solid rgb(189, 24, 24);
+    border-bottom: 1px solid rgb(189, 24, 24);
+    padding-top: 27px;
+}
+@media only screen and (max-width: 444px) {
+.sponsor {
+    width: 50%;
+}
+#search-field {
+    margin-left: 
+}
